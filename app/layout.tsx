@@ -1,5 +1,7 @@
 import "./globals.css";
 
+import Navbar from "./components/navbar";
+
 export default function RootLayout( {
   children,
 }: Readonly<{
@@ -9,7 +11,7 @@ export default function RootLayout( {
     <html lang="en">
       <body>
 
-        <h1>JIJIJI</h1>
+        <Navbar />
         { children }
       </body>
     </html>
